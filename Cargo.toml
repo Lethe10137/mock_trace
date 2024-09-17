@@ -1,0 +1,9 @@
+[package]
+name = "mock_trace"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+netem-trace = {version = "0.3.4", features = ["mahimahi"]}
+polars = {version = "0.42.0", features = ["parquet"]}
+rayon = "1.10"
